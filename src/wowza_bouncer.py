@@ -20,8 +20,8 @@ SLEEP_SECONDS = 5 * 60
 BACKOFF_SECONDS = 30 * 60
  
 # wowza log filepath
-WOWZA_LOG_FILEPATH = 'wowzastreamingengine_access.log'
-#WOWZA_LOG_FILEPATH = '/usr/local/WowzaStreamingEngine/logs/wowzastreamingengine_access.log'
+#WOWZA_LOG_FILEPATH = 'wowzastreamingengine_access.log'
+WOWZA_LOG_FILEPATH = '/usr/local/WowzaStreamingEngine/logs/wowzastreamingengine_access.log'
 WOWZA_START_FILEPATH = '/usr/local/WowzaStreamingEngine/bin/startup.sh'
 WOWZA_STOP_FILEPATH = '/usr/local/WowzaStreamingEngine/bin/shutdown.sh'
  
